@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://my-bucket-dvc-oussama/dvc-storage
+    region = us-east-1

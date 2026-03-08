@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# DVC local config (contains AWS credentials - NEVER commit)
+.dvc/config.local
+.dvc/tmp/
+.dvc/cache/
+
+# Data and model blobs (tracked by DVC, not Git)
+/data/
+/models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Outputs
+metrics.txt
+conf_matrix.png
+report.md
